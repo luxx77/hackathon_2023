@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Panel</title>
+  </head>
+  <style>
+    body {
+      -webkit-tap-highlight-color: transparent;
+    }
+    /* width */
+    ::-webkit-scrollbar {
+      height: 5px;
+      width: 5px;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #dedede;
+      border-radius: 10px;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #cfcfcf;
+    }
+  </style>
+  <body style="background-color: rgb(245, 245, 245)">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    </script>
+  </body>
+</html>

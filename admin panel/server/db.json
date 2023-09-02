@@ -1,0 +1,32 @@
+{
+  "events": [
+    {
+      "id": 12, 
+      "eventType": 1, 
+      "text": "", 
+      "time": "", 
+      "location": "37.8928622,58.3687405"
+    },
+    {
+      "id": 11, 
+      "eventType": 1, 
+      "text": "", 
+      "time": "", 
+      "location": "36.8928622,54.3687405"
+    },
+    {
+      "id": 13, 
+      "eventType": 1, 
+      "text": "", 
+      "time": "", 
+      "location": "37.622,58.36874"
+    },
+    {
+      "id": 16, 
+      "eventType": 1, 
+      "text": "", 
+      "time": "", 
+      "location": "3.928622,58.367405"
+    }
+  ]
+}
